@@ -1,7 +1,7 @@
 {
   "short_name": "Absensi",
   "name": "Sistem Absensi - SMP Pasundan 4 Bandung",
-  "start_url": ".",
+  "start_url": "https://absensismppas4bdg-dotcom.github.io/absensismppas4bdg/",
   "scope": ".",
   "display": "standalone",
   "background_color": "#ffffff",
