@@ -1,0 +1,18 @@
+default_platform(:ios)
+
+platform :ios do
+  desc "Build and upload to TestFlight"
+  lane :beta do
+    match(type: "appstore")
+    build_app(scheme: "App")
+    upload_to_testflight
+  end
+end
+
+platform :android do
+  desc "Build and deploy to Play Store (internal)"
+  lane :deploy do
+    gradle(task: "bundle", build_type: "Release")
+    supply(track: 'internal')
+  end
+end

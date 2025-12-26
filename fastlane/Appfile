@@ -1,0 +1,7 @@
+json: |-
+  # fastlane Appfile template
+  json: |
+    apple_id("your_apple_id@example.com")
+    itc_team_id("YOUR_ITC_TEAM_ID")
+    team_id("YOUR_TEAM_ID")
+    package_name("com.yourschool.absensi")

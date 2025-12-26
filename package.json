@@ -1,0 +1,14 @@
+{
+  "name": "absensi-smp-pas4",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "echo \"No web build step (single-file app). If you use a bundler, add your build command here.\"",
+    "cap:init": "npx cap init absensi com.yourschool.absensi --web-dir=. ",
+    "cap:add:android": "npx cap add android",
+    "cap:add:ios": "npx cap add ios",
+    "cap:copy": "npx cap copy",
+    "cap:open:android": "npx cap open android",
+    "cap:open:ios": "npx cap open ios"
+  }
+}

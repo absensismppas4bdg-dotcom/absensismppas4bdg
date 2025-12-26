@@ -1,0 +1,6 @@
+{
+  "appId": "com.yourschool.absensi",
+  "appName": "Absensi SMP Pasundan 4",
+  "webDir": ".",
+  "bundledWebRuntime": false
+}
